@@ -5,8 +5,9 @@ metadata:
   labels:
     app: nginx-test
   name: nginx-test
+  namespace: myapp
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: nginx-test
